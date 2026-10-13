@@ -337,3 +337,22 @@
   .footer__menu-link_active a {
     text-decoration: none;
   }
+
+  .footer__social-list {
+    display: flex;
+    justify-content: end;
+    gap: 48px;
+    list-style-type: none;
+  }
+  
+  .footer__social-icon {
+    height:48px;
+  }
+  
+  .address.footer__address {
+    justify-self: start;
+    text-align: left;
+  }
+  .address.footer__address a {
+    color: #000000;
+  }
