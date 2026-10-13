@@ -46,6 +46,10 @@
     text-decoration-skip-ink: none;
     text-underline-position: from-font;
   }
+
+  .address p {
+    margin: 0;
+  }
   
   .address.header__address {
     justify-self: end;
@@ -133,12 +137,12 @@
   .bet-button:hover {
     transition: 0.4s;
     cursor: pointer;
-    scale: 1.09;
+    transform: scale(1.09);
   }
   
   .bet-button:active {
     opacity: 0.3;
-    scale: 0.99;
+    transform: scale(0.99);
   }
   
   .overlay {
@@ -174,7 +178,6 @@
     margin-top: 27px;
     margin-bottom: 30px;
     list-style-type: none;
-    background-repeat: no-repeat;
   }
   
   .lots__card-list-item {
